@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_route_routes",
+  "info": {
+    "displayName": "route",
+    "icon": "fighter-jet",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "start": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "destination": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "flightSchedule": {
+      "type": "datetime",
+      "required": true,
+      "unique": true
+    }
+  }
+}
